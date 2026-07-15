@@ -3,88 +3,50 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Flavio Mengxiao Fino - Portfolio</title>
-<meta name="description" content="Portfolio site of Flavio Mengxiao Fino - software engineering student at UVic, coming soon." />
-<style>
-  :root {
-    --bg: #0f1115;
-    --fg: #e8e8ea;
-    --muted: #8a8f98;
-    --accent: #6ee7b7;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
-    text-align: center;
-    padding: 2rem;
-  }
-  .wrap {
-    max-width: 480px;
-  }
-  h1 {
-    font-size: clamp(1.8rem, 5vw, 2.6rem);
-    margin: 0 0 0.5rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-  }
-  p {
-    color: var(--muted);
-    font-size: 1.05rem;
-    line-height: 1.5;
-    margin: 0 0 1.75rem;
-  }
-  .status {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--accent);
-    border: 1px solid rgba(110, 231, 183, 0.3);
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    margin-bottom: 1.75rem;
-  }
-  .dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--accent);
-    animation: pulse 1.6s infinite ease-in-out;
-  }
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-  }
-  .links a {
-    color: var(--fg);
-    text-decoration: none;
-    font-size: 0.95rem;
-    margin: 0 0.6rem;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
-  }
-  .links a:hover {
-    border-color: var(--accent);
-  }
-</style>
+<title>Flavio Fino — Software Engineering Student</title>
+<meta name="description" content="Portfolio of Flavio Mengxiao Fino, Software Engineering student at the University of Victoria." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<nav>
   <div class="wrap">
-    <div class="status"><span class="dot"></span> Building in public</div>
-    <h1>Flavio Mengxiao Fino</h1>
-    <p>Software Engineering student. This site is under active construction - projects, resume, and contact info coming soon.</p>
-    <div class="links">
-      <a href="https://github.com/FlavioFino" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/fino-flavio-mengxiao/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:flaviofino2024@gmail.com">Email</a>
+    <a href="#" class="nav-name">flavio<span class="dot">.</span>fino</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
+</nav>
+
+<section class="hero" style="border-top:none;">
+  <!-- hero content coming in next commit -->
+</section>
+
+<section id="about">
+  <!-- about content coming soon -->
+</section>
+
+<section id="projects">
+  <!-- projects content coming soon -->
+</section>
+
+<section id="skills">
+  <!-- skills content coming soon -->
+</section>
+
+<section id="contact">
+  <!-- contact content coming soon -->
+</section>
+
+<footer>
+  Built by Flavio Fino · Victoria, BC
+</footer>
+
 </body>
 </html>
