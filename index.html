@@ -69,7 +69,80 @@
 </section>
 
 <section id="projects">
-  <!-- projects content coming soon -->
+  <div class="wrap">
+    <span class="section-label">02 — Projects</span>
+    <h2>What I've built</h2>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Smart Climate &amp; Lighting System</h3>
+        <span class="project-meta">Jan – Mar 2026</span>
+      </div>
+      <div class="project-team">University of Victoria · Design course · Team of 3 (Software / Mechanical Eng / Electrical Eng)</div>
+      <p>
+        A cross-disciplinary project tackling energy waste on the UVic campus —
+        classrooms and labs that overheat in summer (where consistent temperature matters,
+        e.g. chemistry labs), and lighting that runs regardless of available natural daylight.
+      </p>
+      <ul>
+        <li>Built on a Raspberry Pi Pico with two light sensors and one temperature sensor.</li>
+        <li>Wrote the Python logic to average and compare sensor readings against set thresholds, simulating automated HVAC response (green/yellow LED indicators) and lighting need (a 3-LED scale from no artificial light needed to full output in darkness).</li>
+        <li>Coordinated the software logic with the electrical (wiring/hardware) and mechanical (interface) sides of the team.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Python</span>
+        <span class="tag">Raspberry Pi Pico</span>
+        <span class="tag">Sensor Integration</span>
+        <span class="tag">HTML</span>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>WECS Weather App</h3>
+        <span class="project-meta">Mar 2026</span>
+      </div>
+      <div class="project-team">University of Victoria · WECS Weather App Workshop</div>
+      <p>
+        A serverless weather application built while following a hands-on workshop covering
+        serverless functions and real-world third-party API integration.
+      </p>
+      <ul>
+        <li>Search-based current conditions, 5-day forecast, and air quality index for any city worldwide.</li>
+        <li>Backend runs as Vercel serverless functions exposing three endpoints, fetching and formatting live JSON data from the OpenWeatherMap API.</li>
+        <li>Third-party API credentials secured via server-side environment variables.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Node.js</span>
+        <span class="tag">OpenWeatherMap API</span>
+        <span class="tag">Vercel Serverless</span>
+        <span class="tag">Vanilla JS</span>
+      </div>
+      <div class="project-links">
+        <a href="https://weather-app-fino.vercel.app" target="_blank" rel="noopener">Live Demo →</a>
+        <a href="https://github.com/FlavioFino/weather-app" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>University Lab Projects</h3>
+        <span class="project-meta">Sep 2024 – Present</span>
+      </div>
+      <div class="project-team">University of Victoria · Coursework</div>
+      <ul>
+        <li>Applied Test-Driven Development (TDD) using Mockito and PIT to achieve 90%+ mutation coverage, independently resolving runtime bugs to ensure backend reliability.</li>
+        <li>Developed a C-based systems interpreter leveraging low-level Unix system calls for memory-safe, asynchronous process management.</li>
+        <li>Built a real-time hardware timer using AVR Assembly and C, interfacing directly with registers on an ATmega2560 board.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Java</span>
+        <span class="tag">C</span>
+        <span class="tag">Mockito / PIT</span>
+        <span class="tag">Assembly (AVR)</span>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="skills">
